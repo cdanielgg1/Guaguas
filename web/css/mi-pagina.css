@@ -1,0 +1,147 @@
+
+
+/* Ambos van a flotar a la izquierda */
+
+/* Banner */
+ 
+ body{
+    	text-align: center;
+        background-color: antiquewhite;
+    	
+    }
+
+	header{
+		margin: auto;
+		margin-bottom: 20px;
+		width: 90%;
+		height: 50px;
+		background: #2E64FE;
+	}
+
+
+	
+.container{
+    text-align:center;
+      padding-bottom: 1em;
+        padding-top: 2em;
+        border: 12px solid #B22222;
+border-radius: 10px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.left{
+    float: left;
+    /*background:blue;*/
+           width:33%;
+           margin-left: 1em;
+           padding-bottom: 30px;
+}
+.right{
+    float: right;
+   /*background:blue;*/
+           width:33%;
+    padding-bottom: 30px;
+    margin-right: 1em;
+}
+.center{
+   /*background:blue;*/
+   display:inline-block;
+          width:30%;
+     padding-bottom: 30px;
+     margin-top: 6em
+}
+
+	aside{
+		display: inline-block;
+		margin: auto;
+		margin-bottom: 20px;
+		width: 30%;
+		height: 200px;
+		background: #81F781;
+		
+		
+	}
+
+	footer{
+		margin: auto;
+		width: 100%;
+		height: auto;
+		 /*background:blue;*/
+	}
+
+.cuadroBanner{
+    border-radius: 15px 15px 15px 15px;
+    background: #8AC007;
+    padding: 20px;
+    width: 800px;
+    height: 50px;
+}
+ 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+
+}
+
+#contenido { margin: 0px; }
+ 
+/* El contenido estara separado por 10px de menu */
+#contenido { margin-left: 10px; }
+ 
+/* Limpiaremos las piezas flotantes */
+.clear { clear:both; }
+
+table {
+   width: 100%;
+   border: 1px solid #000;
+}
+th, td {
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+   padding: 0.3em;
+   caption-side: bottom;
+}
+caption {
+   padding: 0.3em;
+   color: #fff;
+    background: #000;
+}
+th {
+   background: #eee;
+}
+
+.form-page .form-wrapper .field-box {
+  margin-bottom: 30px;
+  margin-left: 0;
+  float: left;
+  width: 50%;
+}
+.form-page .form-wrapper .field-box2 {
+  margin-bottom: 30px;
+  margin-left: 0;
+  float: right;
+  width: 50%;
+}
